@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\minuri senara\Desktop\HMS\The_Helping_Hands.jar</jar>
+  <outfile>C:\Users\minuri senara\Desktop\HMS\HMS.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>true</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\minuri senara\Desktop\HMS\icon\Medicalwp-Medical-Hospital-blue.ico</icon>
+  <classPath>
+    <mainClass>interfaces.welcome</mainClass>
+    <cp>lib/AbsoluteLayout.jar</cp>
+    <cp>lib/mysql-connector-java-5.1.23-bin.jar</cp>
+    <cp>lib/mysql-connector-java-5.1.49-bin.jar</cp>
+    <cp>lib/rs2xml.jar</cp>
+    <cp>lib/jcalendar-1.4.jar</cp>
+    <cp>lib/itextpdf-5.4.0.jar</cp>
+  </classPath>
+  <jre>
+    <path>bin/jre</path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion></minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+</launch4jConfig>
